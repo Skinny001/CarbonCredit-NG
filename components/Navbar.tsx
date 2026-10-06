@@ -50,8 +50,8 @@ export default function Navbar() {
     <nav className="border-b border-white/10 bg-[#0b1515]/80 backdrop-blur-md sticky top-0 z-50">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 text-emerald-400 font-semibold text-lg">
-          <Leaf className="w-6 h-6" />
-          <span>CarbonCreditNG</span>
+          <img src="/logo.jpg" alt="CarbonCreditNG Logo" className="w-8 h-8 rounded shadow-[0_0_10px_rgba(16,185,129,0.5)]" />
+          <span className="tracking-wide">CarbonCreditNG</span>
         </Link>
         <div className="flex items-center gap-6 text-sm font-medium text-white/80">
           <Link href="/projects" className="hover:text-emerald-400 transition-colors">Projects</Link>
