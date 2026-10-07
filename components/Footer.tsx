@@ -17,8 +17,8 @@ export default function Footer() {
         </div>
 
         <div className="max-w-2xl mx-auto text-center space-y-4">
-          <p className="text-white/40 text-sm font-light tracking-wide">
-            <strong className="text-white/60">Important Note:</strong> This is a demo marketplace. The credits issued and sold here are not certified under any recognized carbon standard like Verra or Gold Standard. The verifier role is trusted and is the weak point by design for this demo.
+          <p className="text-white/60 text-sm font-light tracking-wide">
+            Decentralizing environmental impact, one token at a time.
           </p>
           <p className="text-emerald-500/50 text-xs">
             © {new Date().getFullYear()} CarbonCreditNG
